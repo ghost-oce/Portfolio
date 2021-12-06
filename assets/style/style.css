@@ -2,20 +2,34 @@
     font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     margin: 10px;
     padding: 2px;
+    background: whitesmoke;
 
 }
 
 .mainheader h2 {
-    position
+    font-size: 150%; 
+   
 }
 
 .mainheader {
     position: relative;
-    display: flex;
+    display: inline-block;
     left: 0; 
     justify-content: center;
     text-align: center;
     align-items:  center; 
     background-color: rgb(34, 31, 31); 
     color:aliceblue; 
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 1%;
+    margin: 1% 0; 
+    
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: auto; 
 }
