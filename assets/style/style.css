@@ -5,6 +5,17 @@
 
 }
 
-main header {
+.mainheader h2 {
+    position
+}
 
+.mainheader {
+    position: relative;
+    display: flex;
+    left: 0; 
+    justify-content: center;
+    text-align: center;
+    align-items:  center; 
+    background-color: rgb(34, 31, 31); 
+    color:aliceblue; 
 }
